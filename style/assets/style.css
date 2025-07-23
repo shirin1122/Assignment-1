@@ -1,0 +1,34 @@
+/* google font */
+.azeret-mono{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* navbar section */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+.nav-title{
+    font-size: 28px;
+    font-weight: 800;
+    width: 128px;
+    height: 33px;
+    left: 150px;
+    top: 50px;
+    text-align: left;
+}
+.nav-btn{
+align-items: center;
+margin-top: 30px;
+list-style: none;
+padding: 17px 24px 17px 24px;
+}
+/* banner section */
+.bg-section{
+    background-image: url(styles/assets/Hero);
+}
