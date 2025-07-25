@@ -32,7 +32,7 @@ padding: 17px 24px 17px 24px;
 .banner{
     background-image: url(../assets/Hero-bg.png);
     width: 1440px;
-    height: 500px;
+    height: 600px;
 }
 .banner-content{
     display: flex;
@@ -68,3 +68,179 @@ background: rgb(13, 19, 33);
 padding: 15px;
 color: #FFFFFF;
 }
+
+
+
+/* Main section */
+main{
+     max-width: 1140px;
+     margin: 0 auto;
+    
+}
+.section-1{
+   
+   border-radius: 16px;
+   background: rgba(13, 19, 33, 0.02);
+}
+.web{
+    
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    text-align: center;
+    padding: 48px;
+}
+.web-h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    
+    text-align: center;
+}
+.web-p{
+    font-family: azeret-mono;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+/* div-1 */
+.div-1{
+    max-width: 946px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+.coding-h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: azeret-mono;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.coding-p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-1{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+}
+
+/* indpiration section */
+.card{
+    display: flex;
+}
+.card-1{
+    width: 300px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+    margin: 0 24px;
+}
+.card-2{
+    width: 300px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin: 0 24px;
+}
+.card-3{
+    width: 300px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    margin: 0 24px;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 24px;
+}
+.card-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.list{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/* next target section */
+.card-rnm{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.react{
+  margin: 30px 24px;
+}
+/* support section */
+.support{
+    background-image: url(../assets/handshake.jpg);
+    
+    }
+    .support-all{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
+    .support-title{
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .support-description{
+        color: rgb(255, 255, 255);
+        opacity: 0.7;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    #name{
+        width: 546px;
+        height: 50ox;
+        padding: 10px;
+    }
+    #btn{
+        padding: 10px;
+        border-radius: 5px;
+    }
+    /* footer section */
+    footer{
+        border-radius: 16px;
+        background: rgba(13, 19, 33, 0.03);
+    }
+    .foot{
+        display: flex;
+        justify-content: space-between;
+        padding: 32px 150px 32px 150px;
+    }
+    .footer-description{
+        color: rgb(13, 19, 33);
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .footer-image{
+        gap: 16;
+        align-items: center;
+    }
